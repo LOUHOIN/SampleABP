@@ -5,9 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Volo.Abp.Modularity;
 using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp.Autofac;
 
 namespace Console_HelloAbp
 {
+    [DependsOn(typeof(AbpAutofacModule))]
     public class HelloAbpModule : AbpModule //继承于AbpModule类，ABP启动模块
     {
         // 模块配置
