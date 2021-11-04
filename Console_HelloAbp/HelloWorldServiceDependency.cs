@@ -18,6 +18,14 @@ namespace Console_HelloAbp
         public void helloword_Dep()
         {
             Console.WriteLine("Hello World:Dependency");
+
+
+
+
+
+
+
+
         }
     }
 }
