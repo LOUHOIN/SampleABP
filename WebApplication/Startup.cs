@@ -15,14 +15,19 @@ namespace WebApplication
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            //½«Æô¶¯Ä£¿é×¢²áµ½ÈÝÆ÷ÖÐ
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½×¢ï¿½áµ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+
+
+            
             services.AddApplication<AppModule>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // ³õÊ¼»¯Aplication
+            // ï¿½ï¿½Ê¼ï¿½ï¿½Aplication
             app.InitializeApplication();
         }
     }
