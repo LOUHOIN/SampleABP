@@ -9,6 +9,9 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Console_HelloAbp
 {
     // HelloWorld 服务类，实现一个接口，由于Abp使用/依赖注入/，
+
+
+
     // 以类名作为标识，进行自动注册
 
     // 通过特性方式定义依赖
