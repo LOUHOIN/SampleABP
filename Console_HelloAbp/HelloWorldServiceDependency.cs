@@ -14,6 +14,10 @@ namespace Console_HelloAbp
 
     // 以类名作为标识，进行自动注册
 
+
+
+
+
     // 通过特性方式定义依赖
     [Dependency(ServiceLifetime.Transient)]
     public class HelloWorldServiceDependency// : ITransientDependency
