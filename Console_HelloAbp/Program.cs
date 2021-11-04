@@ -8,6 +8,8 @@ namespace Console_HelloAbp
     {
         static void Main(string[] args)
         {
+
+
             // 使用启动模块类来创建Abp应用
             // Abp工厂类的creat方法,在泛型里面启动模块配置
             var application = AbpApplicationFactory.Create<HelloAbpModule>(options=>
